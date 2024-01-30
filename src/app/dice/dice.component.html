@@ -1,11 +1,11 @@
 <div class="container" align="center">
     <h1>Dice Roll Game</h1>
+    <button type="button" class="btn btn-success" (click)="rollDice()">Roll Dice</button>
     
-    <button type="button" class="btn btn-primary" (click)="rollDice()">Roll Dice</button>
     
     <div class="row">
         <div class="col-sm-6 mb-3 mb-sm-0">
-          
+           
             @switch (dice1) {
                 @case (1) {
                     
@@ -21,7 +21,7 @@
                 }
                 @case (2) {
                     <div>
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: 18rem;">q
                             <h4>Dice 1</h4>
                             <div class="card-body">
                               <img height="100px" width="100px"  src="..\assets\images\Dice 2.png">
